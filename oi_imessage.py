@@ -9,8 +9,8 @@ import requests
 import json
 
 # Set interpreter options manually
-interpreter.api_base = "https://api.xyhelper.cn/v1" # Add you custom api base
-interpreter.api_key = "sk-api-xyhelper-cn-free-token-for-everyone-xyhelper" # Add Api Key
+interpreter.api_base = "CUSTOM BASE URL" # Add you custom api base
+interpreter.api_key = "CUSTOM API KEY" # Add Api Key
 interpreter.model = "gpt-3.5-turbo" # Add model name
 
 def get_custom_instruction():
