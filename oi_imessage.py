@@ -130,7 +130,7 @@ def process_message(contact, message):
             accumulated_response = ""
     
     # Use the OpenAI GPT-3 API for generating a response
-    api_url = f"{interpreter.api_base}/chat/completion"
+    api_url = f"{interpreter.api_base}/chat/completion" # feel free to change this to your chat completions url
     api_data = {
         "model": interpreter.model,
         "prompt": message,  # Use the received message as the prompt
